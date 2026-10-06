@@ -3,7 +3,7 @@ import react from '@vitejs/plugin-react'
 import tailwindcss from '@tailwindcss/vite'
 
 export default defineConfig({
-  base: '/IndulacteosWeb/',
+  base: '/',
   plugins: [react(), tailwindcss()],
   server: { port: 5174, open: true }
 })
